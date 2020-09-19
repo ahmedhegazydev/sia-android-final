@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_5sdp"
+    app:cardBackgroundColor="#FAFBFF"
+    app:cardCornerRadius="@dimen/_10sdp"
+    app:cardElevation="@dimen/_3sdp"
+    app:layout_constraintTop_toTopOf="parent"
+    tools:layout_editor_absoluteX="6dp">
+
+    <TextView
+        android:id="@+id/tvInterest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10ssp"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/muli"
+        android:gravity="start"
+        android:paddingEnd="@dimen/_40sdp"
+        android:singleLine="true"
+        android:textColor="@color/interestColor"
+        android:textSize="@dimen/_14ssp"
+        tools:ignore="RtlSymmetry"
+        tools:text="Singing" />
+
+    <Button
+        android:id="@+id/btnInterest"
+        android:layout_width="@dimen/_20sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:layout_gravity="end"
+        android:layout_marginVertical="@dimen/_2ssp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:alpha="0.5"
+        android:background="@drawable/plus_button"
+        android:gravity="center"
+        android:text="@string/dash"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/_14ssp" />
+
+
+</androidx.cardview.widget.CardView>

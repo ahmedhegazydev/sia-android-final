@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".java.ui.activities.LoginActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/muli"
+            android:gravity="center"
+            android:text="@string/choose_fav_subject"
+            android:textColor="@color/colorBlue"
+            android:textSize="@dimen/_18ssp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/login_rounded_search_bar"
+            android:orientation="horizontal"
+            android:paddingStart="@dimen/_8sdp"
+            android:paddingEnd="@dimen/_8sdp"
+
+            >
+
+            <EditText
+                android:id="@+id/etSearchSubjects"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:hint="@string/hint_search"
+                android:inputType="text"
+                android:padding="@dimen/_10sdp"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12ssp"
+
+                />
+
+
+            <ImageView
+                android:id="@+id/ivVisibility"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="10dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/search_gray"
+                android:visibility="visible"
+                tools:ignore="ContentDescription" />
+
+        </LinearLayout>
+
+        <!--            <GridView-->
+        <!--                android:id="@+id/gridMultiSubjects"-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:layout_weight="1"-->
+        <!--                android:columnWidth="@dimen/_40sdp"-->
+        <!--                android:gravity="center"-->
+        <!--                android:horizontalSpacing="@dimen/_15ssp"-->
+        <!--                android:numColumns="auto_fit"-->
+        <!--                android:padding="@dimen/_10sdp"-->
+        <!--                android:stretchMode="columnWidth"-->
+        <!--                android:verticalSpacing="@dimen/_15ssp"-->
+        <!--                tools:listitem="@layout/grid_item_fav_subject" />-->
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerFavSubjects"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="@dimen/_10sdp"
+            app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+            app:spanCount="2"
+            tools:listitem="@layout/grid_item_fav_subject" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,136 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Sia</string>
+    <string name="login">Login</string>
+    <string name="welcome_back_sia">"Welcome back to Sia  "</string>
+    <string name="hint_email">Email or phone number</string>
+    <string name="hint_password">New password</string>
+    <string name="button_login">Login</string>
+    <string name="button_login_facebook">"Login with Facebook  "</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="back_to_role_choice">"Back to Role Choice  "</string>
+    <string name="error">Something Error happens !</string>
+    <string name="wrong_password" />
+    <string name="wrong_username" />
+    <string name="welco_to_sia">Welcome to Sia</string>
+    <string name="window_of_a_world">"A  Window To A World Of Unlimited Knowledge  "</string>
+    <string name="sign_up">Sign up</string>
+    <string name="choose_your_role">Choose your role to continue</string>
+    <string name="already_having_account">" Already have account?"</string>
+    <string name="sign_up_as">"Sign up as a Student  "</string>
+    <string name="join_us_in_sia">join us in sia and enjoy learning</string>
+    <string name="hint_name">Name</string>
+    <string name="button_continue">Continue</string>
+    <string name="continue_with_facebook">"Continue with Facebook  "</string>
+    <string name="verify_your_email">"Verify your email  "</string>
+    <string name="resend_verification_code">Resend Verification Code</string>
+    <string name="verifiy_my_mail">"Verify My Mail  "</string>
+    <string name="create_account">Create Account</string>
+    <string name="hint_national_id">National ID</string>
+    <string name="specialization">Specialization</string>
+    <string name="City">City</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="reset_pass">"Reset Password  "</string>
+    <string name="back_to_login">"Back to Login  "</string>
+    <string name="send_reset_code">"Send reset code  "</string>
+    <string name="confirm_code">"Confirm code  "</string>
+    <string name="change_email_address">"Change Email Address  "</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="boards">Boards</string>
+    <string name="menu_inbox">Inbox</string>
+    <string name="menu_notifications">Notifications</string>
+    <string name="menu_boards">Boards List</string>
+    <string name="sign_out">Log Out</string>
+    <string name="hint_confirm_password">Confirm password</string>
+    <string name="register_as">"Signup as a "</string>
+    <string name="hint_email2">Email address</string>
+    <string name="hint_phone">Phone number</string>
+
+    <string name="button_record">RECORD</string>
+    <string name="button_pick">GALLERY</string>
+    <string name="button_upload">UPLOAD TO YTDL</string>
+    <string name="playing_the_video_in_upload_progress">Playing the video in upload progress</string>
+    <string name="youtube_upload_started">YouTube Direct Lite upload started</string>
+
+
+    <string name="ask_for_camera_permission_button">Camera</string>
+    <string name="ask_for_contacts_permission_button">Contacts</string>
+    <string name="ask_for_audio_permission_button">Audio</string>
+    <string name="ask_for_all_permissions_button">Request all</string>
+    <string name="permission_granted_feedback">GRANTED</string>
+    <string name="permission_denied_feedback">DENIED</string>
+    <string name="permission_permanently_denied_feedback">PERMANENTLY DENIED</string>
+    <string name="permission_unknown_feedback">UNKNOWN</string>
+    <string name="all_permissions_denied_feedback">All those permissions are needed for doing some magic</string>
+    <string name="camera_permission_denied_feedback">Camera permission is needed for doing some magic</string>
+    <string name="contacts_permission_denied_feedback">Contacts permission is needed for doing some magic</string>
+    <string name="audio_permission_denied_dialog_title">Audio permission request</string>
+    <string name="audio_permission_denied_dialog_feedback">Audio recording will not be available until you accept the permission request</string>
+    <string name="permission_rationale_title">We need this permission</string>
+    <string name="permission_rationale_message">This permission is needed for doing some fancy stuff so please, allow it!</string>
+    <string name="permission_rationale_settings_button_text">SETTINGS</string>
+    <string name="hint_video_title">Enter video title</string>
+    <string name="loading_msg">loading...</string>
+    <string name="success">Success uploading</string>
+    <string name="ef_error_create_image_file">faild uploading</string>
+    <string name="i_m_a_student">I’m a Student</string>
+    <string name="i_want_to_study_and_view_courses_through_sia">I want to study and view courses through Sia</string>
+    <string name="i_m_a_teacher">I’m a Teacher</string>
+    <string name="i_want_to_upload_courses_to_help_srudents_through_sia">I want to upload courses to help srudents through Sia</string>
+    <string name="i_m_a_parent">I’m a Parent</string>
+    <string name="i_want_to_keep_track_of_my_kids_progress">I want to keep track of my kids’ progress through Sia</string>
+    <string name="err_enter_username">Enter username</string>
+    <string name="err_enter_phone_or_email">Enter phone or email address</string>
+    <string name="err_enter_password">Enter password</string>
+    <string name="know_you_better">Know You Better</string>
+    <string name="choose_fav_subject">Choose your favourite subjects</string>
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="hint_search">Search</string>
+    <string name="hint_grade">Grade</string>
+    <string name="hint_curri">Curriculum</string>
+    <string name="hint_school_name">School Name</string>
+    <string name="as_a_teacher">"As a teacher we need a little informations to continue your registration process  "</string>
+    <string name="as_a_student">"As a student we need a little informations to continue your registration process  "</string>
+    <string name="email_craeted_success">Email token created success</string>
+    <string name="privacy_policy"><a href="www.google.com">Privacy Policy</a></string>
+    <string name="choose_specialization">Choose specialization</string>
+    <string name="terms_of_service"><a href="www.google.com">Terms of Service</a></string>
+    <string name="set_goal">"Set the goal you want to acheive  "</string>
+    <string name="we_send_you">we send you email confirmation code to your mail</string>
+    <string name="try_word">Retry</string>
+    <string name="no_internet">Please check your network connection</string>
+    <string name="enter_sent_code">Enter the code sent to your email address</string>
+    <string name="resend_available_in">resend available in</string>
+
+
+    <string name="set_the_goal_you_want_to_achieve" tools:ignore="MissingTranslation">set the goal you want to achieve</string>
+    <string name="intermediate" tools:ignore="MissingTranslation">Intermediate</string>
+    <string name="_10_lessons_per_week" tools:ignore="MissingTranslation">10 Lessons per week</string>
+    <string name="advanced" tools:ignore="MissingTranslation">Advanced</string>
+    <string name="_20_lessons_per_week" tools:ignore="MissingTranslation">20 Lessons per week</string>
+    <string name="or_customize_your_goal" tools:ignore="MissingTranslation">Or customize your goal</string>
+    <string name="_5_lessons_per_week" tools:ignore="MissingTranslation">5 Lessons per week</string>
+    <string name="entry" tools:ignore="MissingTranslation">Entry</string>
+    <string name="dash" tools:ignore="MissingTranslation">—</string>
+    <string name="what_are_you_interested_in" tools:ignore="MissingTranslation">What are you interested in?</string>
+    <string name="follow_your_mates_and_tutors" tools:ignore="MissingTranslation">Follow your mates and tutors</string>
+    <string name="follow" tools:ignore="MissingTranslation">Follow</string>
+    <string name="goal_period" tools:ignore="MissingTranslation">Goal Period</string>
+    <string name="your_goal" tools:ignore="MissingTranslation">Your Goal</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello">Hello,</string>
+    <string name="sia_user">Dina Ibrahim</string>
+    <string name="path_search">google</string>
+    <string name="you_completed">You completed</string>
+    <string name="form_your">from your</string>
+    <string name="goal">goal</string>
+    <string name="your">Your</string>
+    <string name="achivements">\'s achivements</string>
+    <string name="Subjects">Subjects</string>
+    <string name="Home">Home</string>
+
+</resources>

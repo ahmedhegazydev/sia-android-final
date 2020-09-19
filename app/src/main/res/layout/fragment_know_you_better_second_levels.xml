@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/viewYourGoal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:background="@drawable/login_rounded_email"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:visibility="visible"
+
+        app:layout_constraintBottom_toTopOf="@+id/viewYourGoalPeriod"
+        app:layout_constraintTop_toBottomOf="@+id/customizeYourGoalIntermediate"
+        tools:layout_editor_absoluteX="13dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/_10sdp"
+            android:rotation="90"
+            android:src="@drawable/show_more"
+
+
+            />
+
+
+        <TextView
+            android:id="@+id/tvSelectSpecialization"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:paddingStart="10dp"
+            android:text="Your Goal" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/viewYourGoalPeriod"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:background="@drawable/login_rounded_email"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:visibility="visible"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewYourGoal"
+        tools:layout_editor_absoluteX="13dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/_10sdp"
+            android:rotation="90"
+            android:src="@drawable/show_more"
+
+
+            />
+
+
+        <TextView
+            android:id="@+id/tvViewYourGoalPeriod"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:paddingStart="10dp"
+            android:text="Goal Period" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tvInterest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/muli"
+        android:gravity="center"
+        android:text="@string/set_the_goal_you_want_to_achieve"
+        android:textColor="@color/colorBlue"
+        android:textSize="@dimen/_16ssp"
+        app:layout_constraintBottom_toTopOf="@+id/idAdvanced"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/customizeYourGoalIntermediate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/muli"
+        android:text="@string/or_customize_your_goal"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_16ssp"
+        app:layout_constraintBottom_toTopOf="@+id/viewYourGoal"
+        app:layout_constraintTop_toBottomOf="@+id/idAdvanced"
+        tools:layout_editor_absoluteX="13dp" />
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/idAdvanced"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_2sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:background="@drawable/rounded_level"
+        android:orientation="vertical"
+        android:padding="@dimen/_10sdp"
+        app:layout_constraintBottom_toTopOf="@+id/customizeYourGoalIntermediate"
+        app:layout_constraintDimensionRatio="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/idIntermediate"
+        app:layout_constraintTop_toBottomOf="@+id/tvInterest">
+
+
+        <ImageView
+            android:id="@+id/ivAdvanced"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_70sdp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/sia_logo_hoho_light"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvAdvanced"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/muli"
+            android:text="Advanced"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/_16ssp"
+            app:layout_constraintTop_toBottomOf="@id/ivAdvanced" />
+
+        <TextView
+            android:id="@+id/tvAdvancedDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/muli"
+            android:text="@string/_20_lessons_per_week"
+            android:textColor="@color/light_grey"
+            android:textSize="@dimen/_10ssp"
+            app:layout_constraintTop_toBottomOf="@id/tvAdvanced" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/idIntermediate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_2sdp"
+        android:background="@drawable/rounded_level"
+        android:orientation="vertical"
+        android:padding="@dimen/_10sdp"
+        app:layout_constraintDimensionRatio="1"
+        app:layout_constraintEnd_toStartOf="@+id/idAdvanced"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/idAdvanced">
+
+
+        <ImageView
+            android:id="@+id/ivIntermediate"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_70sdp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/sia_logo_hoho_light"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvIntermediate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/muli"
+            android:text="@string/intermediate"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/_16ssp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ivIntermediate" />
+
+        <TextView
+            android:id="@+id/tvIntermediateDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/muli"
+            android:text="@string/_5_lessons_per_week"
+            android:textColor="@color/light_grey"
+            android:textSize="@dimen/_10ssp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvIntermediate" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+

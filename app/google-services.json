@@ -1,0 +1,91 @@
+{
+  "project_info": {
+    "project_number": "1060256411768",
+    "firebase_url": "https://gettaxi-android-app-master.firebaseio.com",
+    "project_id": "gettaxi-android-app-master",
+    "storage_bucket": "gettaxi-android-app-master.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1060256411768:android:702545232615389736fd8d",
+        "android_client_info": {
+          "package_name": "com.google.ytdl"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1060256411768-rf8hfob8uikvo9f3cucj7hlactns6cef.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.google.ytdl",
+            "certificate_hash": "56cdfcb21a806857177a35a3508df6293da2094d"
+          }
+        },
+        {
+          "client_id": "1060256411768-41ag0754sml0fv8jso0s2bktvo56pt0b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAwRDkpXshGjGfGXNTlMD75jnqL_fHkeY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1060256411768-59f3adm765bvffdqn396a5g0a1grpn09.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1060256411768-94rhgqbfh8vksekkasfggrnqrkqner7b.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.hegzo.IGive-IOS-App"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1060256411768:android:b9b40f91bf847f4236fd8d",
+        "android_client_info": {
+          "package_name": "com.sia.siaandroidapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1060256411768-41ag0754sml0fv8jso0s2bktvo56pt0b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAwRDkpXshGjGfGXNTlMD75jnqL_fHkeY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1060256411768-59f3adm765bvffdqn396a5g0a1grpn09.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1060256411768-94rhgqbfh8vksekkasfggrnqrkqner7b.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.hegzo.IGive-IOS-App"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

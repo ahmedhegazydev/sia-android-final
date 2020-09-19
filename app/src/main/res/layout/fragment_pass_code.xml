@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlue"
+    tools:context=".java.ui.activities.LoginActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:gravity="center"
+        android:text="@string/verify_your_email"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_24ssp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_110sdp"
+        android:layout_marginBottom="-20dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="5dp"
+        app:contentPadding="@dimen/_20sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:text="we send you email confirmation code to your mail sherif123@example.com"
+                android:textColor="@color/dim_gray"
+                android:textSize="@dimen/_15ssp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_100sdp"
+                android:layout_margin="@dimen/_10sdp"
+                android:scaleType="centerInside"
+                android:src="@drawable/verify_artwork"
+
+                />
+
+            <!--            <me.philio.pinentry.PinEntryView-->
+            <!--                android:id="@+id/pin_entry_simple"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_gravity="center_horizontal"-->
+            <!--                app:accentType="all"-->
+            <!--                app:digitElevation="10dp" />-->
+
+            <Button
+                android:id="@+id/btnConfirmCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_rounded_login"
+                android:padding="15dp"
+                android:text="@string/confirm_code"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_14ssp" />
+
+            <TextView
+                android:id="@+id/tvChangeEmailAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_back_to_role_choice"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="@string/change_email_address"
+                android:textAllCaps="false"
+                android:textColor="@color/colorBlue"
+                android:textSize="@dimen/_14ssp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:id="@+id/tvResendVerificationCode"
+                android:text="@string/resend_verification_code"
+                android:textColor="@color/colorBlue"
+                android:textSize="@dimen/_17ssp" />
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

@@ -1,0 +1,148 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme1" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <!-- Base application theme. -->
+    <style name="AppTheme2" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme3" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="actionMenuTextColor">@color/white</item>
+        <item name="android:actionMenuTextColor">@color/white</item>
+        <item name="windowNoTitle">true</item>
+
+    </style>
+
+
+    <style name="WIN_FULL_SCREEN" parent="@style/AppTheme3">
+        <!--<item name="android:windowDrawsSystemBarBackgrounds">true</item>-->
+        <!--<item name="colorPrimary">@android:color/transparent</item>-->
+        <!--        <item name="colorPrimary">@color/my_color3</item>-->
+        <!--        <item name="colorPrimary">@color/Orange</item>-->
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+        <!--        <item name="android:windowBackground">@color/my_color3</item>-->
+        <!--        <item name="android:windowBackground">@color/Orange</item>-->
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="actionMenuTextColor">@color/white</item>
+        <item name="android:actionMenuTextColor">@color/white</item>
+        <!--<item name="android:windowTranslucentStatus">true</item>-->
+        <!--<item name="android:windowTranslucentNavigation">true</item>-->
+    </style>
+
+    <style name="Theme.Light.NoActionBar" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <!--<item name="android:windowDrawsSystemBarBackgrounds">true</item>-->
+        <!--<item name="colorPrimary">@android:color/transparent</item>-->
+        <!--        <item name="colorPrimary">@color/my_color3</item>-->
+<!--        <item name="colorPrimary">@color/Orange</item>-->
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+        <!--        <item name="android:windowBackground">@color/my_color3</item>-->
+<!--        <item name="android:windowBackground">@color/Orange</item>-->
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="actionMenuTextColor">@color/white</item>
+        <item name="android:actionMenuTextColor">@color/white</item>
+        <!--<item name="android:windowTranslucentStatus">true</item>-->
+        <!--<item name="android:windowTranslucentNavigation">true</item>-->
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+    <!--Dialog style-->
+    <style name="FullHeightDialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+
+
+
+<!--    <style name="AppTheme.NoActionBar"></style>-->
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Light" />
+
+<!--    <style name="CustomDialog" parent="@android:style/Theme.Holo.Light.Dialog">-->
+<!--        <item name="DialogTitleAppearance">@android:style/TextAppearance.Medium-->
+<!--        </item>-->
+<!--        <item name="DialogTitleText">Loading…</item>-->
+<!--        <item name="DialogSpotColor">@color/colorPrimaryDark</item>-->
+<!--        <item name="DialogSpotCount">4</item>-->
+<!--        <item name="android:background">@android:color/white</item>-->
+<!--    </style>-->
+
+
+<!--    <style name="MyCustomTabLayout" parent="Widget.Design.TabLayout">-->
+<!--        <item name="tabIndicatorColor">?attr/colorAccent</item>-->
+<!--        <item name="tabIndicatorHeight">4dp</item>-->
+<!--        <item name="tabPaddingStart">12dp</item>-->
+<!--        <item name="tabPaddingEnd">12dp</item>-->
+<!--        <item name="tabBackground">?attr/selectableItemBackground</item>-->
+<!--        <item name="tabTextAppearance">@style/MyCustomTabTextAppearance</item>-->
+<!--        <item name="tabSelectedTextColor">?android:textColorPrimary</item>-->
+<!--        <item name="android:elevation">1dp</item>-->
+<!--        <item name="tabIndicatorFullWidth">false</item>-->
+<!--        <item name="tabTextColor">@color/colorSilver</item>-->
+<!--    </style>-->
+
+    <style name="MyCustomTabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+
+    <style name="TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="hintTextAppearance">@style/HintText</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="boxBackgroundColor">@android:color/white</item>
+
+    </style>
+
+    <style name="TextInputLayout_gray" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="hintTextAppearance">@style/HintText</item>
+        <item name="boxBackgroundColor">@android:color/white</item>
+        <item name="boxStrokeColor">@android:color/white</item>
+        <item name="boxStrokeWidth">@dimen/_2sdp</item>
+        <item name="boxCollapsedPaddingTop">@dimen/_20sdp</item>
+
+    </style>
+
+    <style name="HintText" parent="TextAppearance.Design.Hint">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:fontFamily">@font/muli</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:paddingStart">@dimen/_5sdp</item>
+        <item name="android:paddingEnd">@dimen/_5sdp</item>
+        <item name="boxBackgroundColor">@color/white</item>
+
+    </style>
+
+
+</resources>

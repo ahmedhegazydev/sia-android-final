@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_bg"
+    tools:context=".java.ui.activities.LoginActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:fontFamily="@font/muli"
+        android:gravity="center"
+        android:text="@string/know_you_better"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_24ssp" />
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_110sdp"
+        android:layout_marginBottom="-20dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="5dp"
+        app:contentPadding="@dimen/_20sdp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <androidx.viewpager.widget.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/view_pager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+
+            <LinearLayout
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_6sdp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvSkip"
+                    android:layout_width="@dimen/_90sdp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_back_to_role_choice"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:text="@string/skip"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorBlue"
+                    android:textSize="@dimen/_14ssp"
+
+                    />
+
+                <Button
+                    android:id="@+id/btnNext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:background="@drawable/btn_rounded_login"
+                    android:padding="15dp"
+                    android:text="@string/next"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_14ssp"
+
+                    />
+
+
+            </LinearLayout>
+
+
+            <!--            <com.ravindu1024.indicatorlib.ViewPagerIndicator-->
+            <!--                android:id="@+id/pager_indicator"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                app:deselectedColor="@color/gray_light"-->
+            <!--                app:selectedColor="@color/colorBlue"-->
+            <!--                android:gravity="center_horizontal|center_vertical" />-->
+
+            <com.pixelcan.inkpageindicator.InkPageIndicator
+                android:id="@+id/pager_indicator"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal|center_vertical"
+                app:ipi_animationDuration="@integer/anim_dur_indicator"
+                app:ipi_currentPageIndicatorColor="@color/colorBlue"
+                app:ipi_dotDiameter="@dimen/_10sdp"
+                app:ipi_dotGap="@dimen/_7sdp"
+                app:ipi_pageIndicatorColor="@color/gray_light"
+
+                />
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

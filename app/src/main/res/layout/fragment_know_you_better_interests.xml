@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvInterest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/muli"
+        android:gravity="center"
+        android:text="@string/what_are_you_interested_in"
+        android:textColor="@color/colorBlue"
+        android:textSize="@dimen/_16ssp"
+
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etSearchInterest"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_13sdp"
+        android:layout_weight="1"
+        android:autofillHints="Enter your interests"
+        android:background="@drawable/login_rounded_search_bar"
+        android:hint="@string/hint_search"
+        android:padding="@dimen/_10sdp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_12ssp"
+        app:layout_constraintEnd_toStartOf="@id/angry_btn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvInterest" />
+
+    <Button
+        android:id="@+id/angry_btn"
+
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_gravity="center"
+        android:background="@drawable/plus_button"
+        android:text="+"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/_20ssp"
+        app:layout_constraintBottom_toBottomOf="@id/etSearchInterest"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/etSearchInterest"
+        app:layout_constraintTop_toTopOf="@id/etSearchInterest" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerInterests"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/_13sdp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:padding="@dimen/_5sdp"
+        app:layoutManager="com.google.android.flexbox.FlexboxLayoutManager"
+        app:layout_constraintTop_toBottomOf="@id/etSearchInterest"
+        tools:listitem="@layout/interest_item" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
